@@ -1,0 +1,57 @@
+name: delivery
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.31.0
+  cloud_firestore: ^4.17.0
+
+  firebase_auth: ^4.18.0
+  google_sign_in: ^6.2.1
+  provider: ^6.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/google_logo.png
+    - assets/Chicken Skewers.jpg
+    - assets/Shawarma Ptatoes.jpg
+    - assets/Fried Chicken.jpg
+    - assets/Steak Homemade.jpg
+    - assets/Grilled Chicken.jpg
+    - assets/Mixed fried meat.jpg
+    - assets/food1.jpg
+    - assets/food2.jpg
+    - assets/food3.jpg
+    - assets/food4.jpg
+    - assets/noti1.jpg
+    - assets/noti2.jpg
+    - assets/noti3.jpg
+    - assets/noti4.jpg
+    - assets/profile1.jpg
+    - assets/profile2.jpg
+    - assets/profile3.jpg
+    - assets/profile3.jpg
+    - assets/location.png
+    - assets/visa_card.jpg
+    - assets/paypal.jpg
+    - assets/Mastercard.jpg
+    - assets/master_card.jpg
+    - assets/rider_profile_1.jpg
+    - assets/rider_background_1.jpg
+    - assets/rider_profile_2.jpg
+    - assets/rider_background_2.jpg
+
